@@ -1,0 +1,95 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: 'poppins';
+    src: url('./fontes/Poppins-Regular.ttf');
+}
+/*
+#FA0B00
+#DB1B18
+#ffff72
+#DC1010
+#DB2518
+f77272esvaziar
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:#f77272;
+    font-family: poppins;
+}
+
+header{
+    background-image: linear-gradient(to bottom,#DB2518,#81130C);
+    min-height: 100px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+header>p{
+    font-size: 1.2em;
+   color:#fff;
+   padding-left: 10px;
+   padding-right:10px ;
+   margin: auto;
+   text-shadow: 2px 2px 0px rgba(0,0,0,0.418);
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: #ffff72;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.418);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px ;
+
+}
+
+
+
+header>h1{
+    color: #fff;
+    font-family: poppins;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px black ;
+}
+
+main>h1{
+    color:#fff;
+    font-family: poppins;
+    color: #0000;
+}
+
+main>h2{
+    color:#DB2518;
+    font-family: poppins;
+    color: #0000;
+    text-indent: 8px;
+}
+
+
+main p{
+    margin: 15px 0px;
+    text-align:justify;
+    text-indent:30px;
+    line-height:2em;
+    font-size:1em;
+}
+
+aside h3{
+    padding: 5px;
+
+}
+
+footer{
+    background-color: #DB2518;
+    color: #fff;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
