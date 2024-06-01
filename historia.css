@@ -18,7 +18,7 @@ f77272esvaziar
     padding: 0px;
 }
 body{
-    background-color:#f77272;
+    background-color:#e61e1e;
     font-family: poppins;
 }
 
@@ -57,19 +57,22 @@ header>h1{
     font-family: poppins;
     font-size: 3em;
     text-shadow: 2px 2px 0px black ;
+    text-align: center;
 }
 
-main>h1{
+main > h1{
     color:#fff;
     font-family: poppins;
     color: #0000;
+    text-align: center;
 }
 
 main>h2{
     color:#DB2518;
     font-family: poppins;
-    color: #0000;
-    text-indent: 8px;
+    color:#ffff;
+    text-indent:8px;
+    text-align:center;
 }
 
 
@@ -78,16 +81,12 @@ main p{
     text-align:justify;
     text-indent:30px;
     line-height:2em;
-    font-size:1em;
+    font-size:1em;;
 }
 
-aside h3{
-    padding: 5px;
-
-}
 
 footer{
-    background-color: #DB2518;
+    background-color: #330603;
     color: #fff;
     text-align: center;
     font-size: 0.8em;
